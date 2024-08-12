@@ -1,0 +1,183 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.monsieur-la-doulaise-regular {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+/* shared style */
+.orange{
+    color:rgba(230, 83, 60, 1) ;
+}
+.white{
+    color: white;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.body-btn{
+    height: 54px;
+    width: 224px;
+    border-radius: 42px;
+    color: white;
+}
+/* nav */
+/* nav{
+    border: 1px solid blue;
+} */
+.fitness{
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-left: 120px;
+}
+.nav-div1{
+    width: 1060px;
+    height: 46px;
+    border: 1px solid white;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 3rem;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.btn-home{
+    height: 38px;
+    width: 92px;
+    border: none;
+    border-radius: 46px;
+    background-color: rgba(230, 83, 60, 1);
+    color: white;
+    margin-right: 3rem;
+    margin-top: 0px;
+    margin-left: -35px;
+}
+nav{
+    /* border: 1px solid red; */
+    justify-items: center;
+}
+nav ul{
+    margin-top: 30px;
+    align-items: center;
+    border: 1px solid gray;
+    /* margin-right: 190px; */
+    height: 46px;
+    width: 465px;
+    border-radius: 39px;
+}
+
+/* get-body in shape portion */
+.get-body{
+    font-size: 4.875rem;
+    font-weight: 900;
+    margin-top: 0px;
+
+}
+.section-body{
+    justify-content: space-around;
+}
+.body-box{
+    height: 440px;
+    width: 599px;
+    border: 1px solid blue;
+    margin-top: 96px;
+}
+.body-p{
+    margin-top: -50px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.btn-1{
+    background-color: #E6533C;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.btn-2{
+    background-color:transparent;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid white;
+    margin-left: 000px;
+}
+.button-left{
+    height: 54px;
+    width: 462px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin-left: 23px;
+
+}
+.TP1{
+    height: 96px;
+    width: 206px;
+    border: 1px solid blue;
+    align-items: center;
+    border-radius: 12px;
+    margin-top: -165px;
+    margin-left: 35px;
+    background-color:rgba(48, 48, 48, 0.54) ;
+    backdrop-filter: blur(30px)
+    
+
+}
+.TP2{
+    height: 96px;
+    width: 206px;
+    border: 1px solid blue;
+    align-items: center;
+    background-color: rgba(48, 48, 48, 0.5);
+    border-radius: 12px;
+    margin-left: 390px;
+    margin-top: -400px;
+    backdrop-filter: blur(30px)
+}
+.text1{
+   margin-right: 25px;
+}
+.text1-1{
+   margin-top: -15px;
+
+}
+.text2{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 17px;
+    margin-left: 24px;
+}
+.text3{
+    color: rgba(255, 255, 255, 0.65);
+    margin-left: 24px;
+    margin-top: -35px;
+}
+.trainer1{
+ margin-left: 150px;
+ position: relative;
+    
+}
