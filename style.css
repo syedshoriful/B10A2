@@ -45,7 +45,7 @@
 .fitness{
     font-size: 2.25rem;
     font-weight: 800;
-    margin-left: 120px;
+    margin-left: 185px;
 }
 .nav-div1{
     width: 1060px;
@@ -92,16 +92,18 @@ nav ul{
     font-size: 4.875rem;
     font-weight: 900;
     margin-top: 0px;
+    margin-right: -50px;
 
 }
 .section-body{
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .body-box{
     height: 440px;
     width: 599px;
     border: 1px solid blue;
     margin-top: 96px;
+    margin-left: 190px !important;
 }
 .body-p{
     margin-top: -50px;
@@ -137,7 +139,6 @@ nav ul{
 .TP1{
     height: 96px;
     width: 206px;
-    border: 1px solid blue;
     align-items: center;
     border-radius: 12px;
     margin-top: -165px;
@@ -150,7 +151,6 @@ nav ul{
 .TP2{
     height: 96px;
     width: 206px;
-    border: 1px solid blue;
     align-items: center;
     background-color: rgba(48, 48, 48, 0.5);
     border-radius: 12px;
@@ -181,3 +181,141 @@ nav ul{
  position: relative;
     
 }
+/* Change your habit style */
+.para{
+    height: 120px;
+    width: 671px;
+    border: 1px solid blue;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+.cyh{
+    width: 1044px;
+    height: 452px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.habit{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: -1px;
+}
+.small-para{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.images4{
+    margin-top: 58px;
+    margin-left: 60px;
+    justify-content: space-between;
+      
+}
+.image-circle{
+    border-radius: 50%;
+}
+.cyh-h3{
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-align: center;
+    margin-left: -69px;
+}
+.cyh-p{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-right: 69px;
+    margin-top: -10px;
+}
+/* Run an extra mile easily portion */
+.run{
+    font-weight: 900;
+    font: 3rem;
+    color: white;
+}
+.rme-p{
+    font-weight: 400;
+    font-size: 0.875rem;
+    color:rgba(255, 255, 255, 0.5);
+}
+.rme{
+   border: 1px solid blue;
+   width: 1060px;
+   height: 371px;
+   margin: 0 auto;
+   margin-top: 100px;
+   align-items: center;
+   justify-content: space-around;
+   background-color: rgb(44, 43, 43);
+   border-radius: 18px;
+}
+#btn-join-now{
+    margin-top:10px;
+}
+.runner{
+    height: 312px;
+    width: 371px;
+    border: 1px solid blue;
+    margin-right: -50px;
+    object-fit: cover;
+    object-position: 10px 10%;
+    
+}
+.image-width{ 
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 18px;
+    object-fit: cover;
+   
+   
+}
+.h1-p{
+    margin-left: -54px;
+}
+
+
+
+/* Responsive part */
+@media screen and (max-width:576px){
+     .section-body{
+        flex-direction: column;
+    }
+
+    /* navbar-related work */
+    .navbar{
+        margin-left: -50px;
+    }
+    #navul{
+        display: none;
+    }
+    #bar{
+        display: inline;
+    }
+    /* section-body related work */
+    .section-body{
+       margin-left: 55px;
+    }
+
+
+    /* Change Your habit related portion */
+    .images4{
+        /* margin-top: 500px; */
+        flex-direction: column;
+        align-items: center;
+    }
+    .cyh{
+        margin-top: 350px;
+    }
+    .image-circle{
+        margin-left: 65px;
+    }
+}
+
