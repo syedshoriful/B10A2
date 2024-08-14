@@ -101,7 +101,7 @@ nav ul{
 .body-box{
     height: 440px;
     width: 599px;
-    border: 1px solid blue;
+/*     border: 1px solid blue; */
     margin-top: 96px;
     margin-left: 190px !important;
 }
@@ -185,7 +185,7 @@ nav ul{
 .para{
     height: 120px;
     width: 671px;
-    border: 1px solid blue;
+/*     border: 1px solid blue; */
     text-align: center;
     margin: 0 auto;
 
@@ -194,7 +194,7 @@ nav ul{
 .cyh{
     width: 1044px;
     height: 452px;
-    border: 1px solid blue;
+/*     border: 1px solid blue; */
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -246,7 +246,7 @@ nav ul{
     color:rgba(255, 255, 255, 0.5);
 }
 .rme{
-   border: 1px solid blue;
+/*    border: 1px solid blue; */
    width: 1060px;
    height: 371px;
    margin: 0 auto;
@@ -262,7 +262,7 @@ nav ul{
 .runner{
     height: 312px;
     width: 371px;
-    border: 1px solid blue;
+/*     border: 1px solid blue; */
     margin-right: -50px;
     /* object-fit: cover; */
     object-position: 10px 10%;
@@ -300,7 +300,7 @@ nav ul{
     margin: 0 auto;
     width: 640px;
     height: 120px;
-    border: 1px solid blue;
+/*     border: 1px solid blue; */
     margin-top: 100px;
 }
 .calculator{
