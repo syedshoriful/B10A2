@@ -157,18 +157,19 @@ nav ul{
     align-items: center;
     border-radius: 12px;
     position: relative;
-    bottom: 150px;
+    bottom: 160px;
     /* right: 10px; */
-    left: 10px;
+    left: -100px;
     
     background-color:rgba(48, 48, 48, 0.54) ;
-    backdrop-filter: blur(30px)
+    backdrop-filter: blur(10px)
     
 
 }
 .TP2{
     height: 96px;
     width: 206px;
+    padding-top: 1px;
     position: relative;
     bottom: 600px;
     left: 200px;
@@ -176,6 +177,7 @@ nav ul{
     background-color: rgba(48, 48, 48, 0.5);
     border-radius: 12px;
     backdrop-filter: blur(30px)
+
 }
 .text1{
    margin-right: 25px;
@@ -536,10 +538,10 @@ footer ul li{
         border-radius: 12px;
         position: relative;
         bottom: 320px;
-        right: 0px;
+        left: 10px;
         padding: 0px;
         background-color:rgba(48, 48, 48, 0.54) ;
-        backdrop-filter: blur(30px);
+        backdrop-filter: blur(10px);
         font-size: 0.875rem;
         gap: 10px;
         
@@ -548,6 +550,7 @@ footer ul li{
         font-size: 0.5625rem;
     }
     .TP2{
+        padding-top: 0px;
         height: 72.58px;
         width: 160.74px;
         align-items: center;
@@ -556,7 +559,8 @@ footer ul li{
         bottom: 600px;
         right: 10px;
         background-color:rgba(48, 48, 48, 0.54) ;
-        backdrop-filter: blur(30px);
+        /* backdrop-filter: blur(70px); */
+        background-color: #3D3939;
         font-size:1.8rem;
         
     }
